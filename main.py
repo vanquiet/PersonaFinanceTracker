@@ -71,7 +71,7 @@ def main():
 
         elif choice =="4":
             summary = manager.category_breakdown()
-            print(f"Category breakdown: {summary}")
+            print(f"Category breakdown:")
             show_dict(summary)
             print("Categories: ", manager.get_all_categories())
 
